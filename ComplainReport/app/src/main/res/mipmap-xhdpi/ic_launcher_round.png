@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="byteShort" msgid="8340973892742019101">"ბაიტი"</string>
+    <string name="kilobyteShort" msgid="7542884022844556968">"კბაიტი"</string>
+    <string name="megabyteShort" msgid="6355851576770428922">"მბაიტი"</string>
+    <string name="gigabyteShort" msgid="3259882455212193214">"გბაიტი"</string>
+    <string name="terabyteShort" msgid="231613018159186962">"ტბაიტი"</string>
+    <string name="petabyteShort" msgid="5637816680144990219">"PB"</string>
+    <string name="fileSizeSuffix" msgid="8897567456150907538">"<xliff:g id="NUMBER">%1$s</xliff:g> <xliff:g id="UNIT">%2$s</xliff:g>"</string>
+    <string name="untitled" msgid="4638956954852782576">"უსათაურო"</string>
+    <string name="emptyPhoneNumber" msgid="7694063042079676517">"(ტელეფონის ნომრის გარეშე)"</string>
+    <string name="unknownName" msgid="6867811765370350269">"უცნობი"</string>
+    <string name="defaultVoiceMailAlphaTag" msgid="2660020990097733077">"ხმოვანი ფოსტა"</string>
+    <string name="defaultMsisdnAlphaTag" msgid="2850889754919584674">"MSISDN1"</string>
+    <string name="mmiError" msgid="5154499457739052907">"კავშირის პრობლემა ან არასწორი MMI კოდი."</string>
+    <string name="mmiFdnError" msgid="5224398216385316471">"ოპერაცია შეზღუდულია მხოლოდ დაშვებულ ნომრებზე."</string>
+    <string name="mmiErrorWhileRoaming" msgid="762488890299284230">"ზარის გადამისამართების პარამეტრების თქვენი ტელეფონიდან შეცვლა როუმინგისას ვერ მოხერხდება."</string>
+    <string name="serviceEnabled" msgid="8147278346414714315">"სერვისი ჩართულია."</string>
+    <string name="serviceEnabledFor" msgid="6856228140453471041">"სერვისი ჩართულია შემდეგისთვის:"</string>
+    <string name="serviceDisabled" msgid="1937553226592516411">"სერვისი გამორთულია."</string>
+    <string name="serviceRegistered" msgid="6275019082598102493">"რეგისტრაცია წარმატებით განხორციელდა."</string>
+    <string name="serviceErased" msgid="1288584695297200972">"წაშლა წარმატებით განხორციელდა."</string>
+    <string name="passwordIncorrect" msgid="7612208839450128715">"პაროლი არასწორია"</string>
+    <string name="mmiComplete" msgid="8232527495411698359">"MMI დასრულდა."</string>
+    <string name="badPin" msgid="9015277645546710014">"თქვენ მიერ შეყვანილი ძველი პინ-კოდი არასწორია."</string>
+    <string name="badPuk" msgid="5487257647081132201">"თქვენ მიერ შეყვანილი PUK კოდი არასწორია."</string>
+    <string name="mismatchPin" msgid="609379054496863419">"თქვენ მიერ შეყვანილი PIN კოდები არ შეესატყვისება."</string>
+    <string name="invalidPin" msgid="3850018445187475377">"აკრიფეთ PIN, რომელიც შედგება 4-დან 8 ციფრამდე."</string>
+    <string name="invalidPuk" msgid="8761456210898036513">"აკრიფეთ PUK, რომელიც რვა ან მეტი ციფრისგან შედგება."</string>
+    <string name="needPuk" msgid="919668385956251611">"თქვენი SIM ბარათი დაბლოკილია PUK კოდით. განბლოკვისთვის შეიყვანეთ PUK კოდი."</string>
+    <string name="needPuk2" msgid="4526033371987193070">"SIM ბარათის განსაბლოკად აკრიფეთ PUK2."</string>
+    <string name="enablePin" msgid="209412020907207950">"წარუმატებელი მცდელობა. ჩართეთ SIM/RUIM ჩაკეტვა."</string>
+    <plurals name="pinpuk_attempts" formatted="false" msgid="1251012001539225582">
+      <item quantity="other">თქვენ დაგრჩათ <xliff:g id="NUMBER_1">%d</xliff:g> მცდელობა, სანამ SIM დაიბლოკება.</item>
+      <item quantity="one">თქვენ დაგრჩათ <xliff:g id="NUMBER_0">%d</xliff:g> მცდელობა, სანამ SIM დაიბლოკება.</item>
+    </plurals>
+    <string name="imei" msgid="2625429890869005782">"IMEI"</string>
+    <string name="meid" msgid="4841221237681254195">"MEID"</string>
+    <string name="ClipMmi" msgid="6952821216480289285">"შემომავალი ზარის აბონენტის ID"</string>
+    <string name="ClirMmi" msgid="7784673673446833091">"გამავალი მრეკავის ID"</string>
+    <string name="ColpMmi" msgid="3065121483740183974">"დაუკავშირდა Line ID-ს"</string>
+    <string name="ColrMmi" msgid="4996540314421889589">"დაუკავშირდა Line ID Restriction-ს"</string>
+    <string name="CfMmi" msgid="5123218989141573515">"ზარის გადამისამართება"</string>
+    <string name="CwMmi" msgid="9129678056795016867">"ზარის ლოდინი"</string>
+    <string name="BaMmi" msgid="455193067926770581">"ზარის აკრძალვა"</string>
+    <string name="PwdMmi" msgid="7043715687905254199">"პაროლის შეცვლა"</string>
+    <string name="PinMmi" msgid="3113117780361190304">"PIN-ის შეცვლა"</string>
+    <string name="CnipMmi" msgid="3110534680557857162">"გამომძახებლის ნომერი წარმოდგენილია"</string>
+    <string name="CnirMmi" msgid="3062102121430548731">"შემოსული ზარი შეზღუდულია"</string>
+    <string name="ThreeWCMmi" msgid="9051047170321190368">"დარეკვის სამი გზა"</string>
+    <string name="RuacMmi" msgid="7827887459138308886">"არასასურველი მომაბეზრებელი ზარების უარყოფა"</string>
+    <string

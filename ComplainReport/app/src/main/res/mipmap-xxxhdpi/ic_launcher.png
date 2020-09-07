@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="byteShort" msgid="8340973892742019101">"B"</string>
+    <string name="kilobyteShort" msgid="7542884022844556968">"kB"</string>
+    <string name="megabyteShort" msgid="6355851576770428922">"MB"</string>
+    <string name="gigabyteShort" msgid="3259882455212193214">"GB"</string>
+    <string name="terabyteShort" msgid="231613018159186962">"TB"</string>
+    <string name="petabyteShort" msgid="5637816680144990219">"PB"</string>
+    <string name="fileSizeSuffix" msgid="8897567456150907538">"<xliff:g id="NUMBER">%1$s</xliff:g> <xliff:g id="UNIT">%2$s</xliff:g>"</string>
+    <string name="untitled" msgid="4638956954852782576">"&lt;ಶೀರ್ಷಿಕೆ ರಹಿತ&gt;"</string>
+    <string name="emptyPhoneNumber" msgid="7694063042079676517">"(ಯಾವುದೇ ಫೋನ್ ಸಂಖ್ಯೆಯಿಲ್ಲ)"</string>
+    <string name="unknownName" msgid="6867811765370350269">"ಅಪರಿಚಿತ"</string>
+    <string name="defaultVoiceMailAlphaTag" msgid="2660020990097733077">"ಧ್ವನಿಮೇಲ್"</string>
+    <string name="defaultMsisdnAlphaTag" msgid="2850889754919584674">"MSISDN1"</string>
+    <string name="mmiError" msgid="5154499457739052907">"ಸಂಪರ್ಕ ಸಮಸ್ಯೆ ಇಲ್ಲವೇ ಅಮಾನ್ಯ MMI ಕೋಡ್."</string>
+    <string name="mmiFdnError" msgid="5224398216385316471">"ಕಾರ್ಯಾಚರಣೆಯನ್ನು ಸ್ಥಿರ ದೂರವಾಣಿ ಸಂಖ್ಯೆಗಳಿಗೆ ಮಾತ್ರ ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ."</string>
+    <string name="mmiErrorWhileRoaming" msgid="762488890299284230">"ನೀವು ರೋಮಿಂಗ್‌ನಲ್ಲಿರುವಾಗ ನಿಮ್ಮ ಫೋನ್‌ನಿಂದ ಕರೆ ಫಾರ್ವರ್ಡ್ ಮಾಡುವಿಕೆಯ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಬದಲಾಯಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ."</string>
+    <string name="serviceEnabled" msgid="8147278346414714315">"ಸೇವೆಯನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ."</string>
+    <string name="serviceEnabledFor" msgid="6856228140453471041">"ಸೇವೆಯನ್ನು ಇವುಗಳಿಗಾಗಿ ಸಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ:"</string>
+    <string name="serviceDisabled" msgid="1937553226592516411">"ಸೇವೆಯನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ."</string>
+    <string name="serviceRegistered" msgid="6275019082598102493">"ನೋಂದಣಿ ಯಶಸ್ವಿಯಾಗಿದೆ."</string>
+    <string name="serviceErased" msgid="1288584695297200972">"ಅಳಿಸುವಿಕೆ ಯಶಸ್ವಿಯಾಗಿದೆ."</string>
+    <string name="passwordIncorrect" msgid="7612208839450128715">"ತಪ್ಪು ಪಾಸ್‌ವರ್ಡ್."</string>
+    <string name="mmiComplete" msgid="8232527495411698359">"MMI ಪೂರ್ಣಗೊಂಡಿದೆ."</string>
+    <string name="badPin" msgid="9015277645546710014">"ನೀವು ಟೈಪ್‌‌ ಮಾಡಿದ ಹಳೆಯ ಪಿನ್‌ ಸರಿಯಾಗಿಲ್ಲ."</string>
+    <string name="badPuk" msgid="5487257647081132201">"ನೀವು ಟೈಪ್‌ ಮಾಡಿದ PUK ಸರಿಯಾಗಿಲ್ಲ."</string>
+    <string name="mismatchPin" msgid="609379054496863419">"ನೀವು ಟೈಪ್‌ ಮಾಡಿದ ಪಿನ್‌ ಗಳು ಹೊಂದಿಕೆಯಾಗುವುದಿಲ್ಲ."</string>
+    <string name="invalidPin" msgid="3850018445187475377">"4 ರಿಂದ 8 ಸಂಖ್ಯೆಗಳಿರುವ ಪಿನ್‌ ಟೈಪ್ ಮಾಡಿ."</string>
+    <string name="invalidPuk" msgid="8761456210898036513">"8 ಅಥವಾ ಅದಕ್ಕಿಂತ ಹೆಚ್ಚು ಸಂಖ್ಯೆಗಳಿರುವ PUK ಟೈಪ್ ಮಾಡಿ."</string>
+    <string name="needPuk" msgid="919668385956251611">"ನಿಮ್ಮ ಸಿಮ್‌ ಕಾರ್ಡ್ PUK-ಲಾಕ್ ಆಗಿದೆ. ಅದನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡಲು PUK ಕೋಡ್ ಟೈಪ್ ಮಾಡಿ."</string>
+    <string name="needPuk2" msgid="4526033371987193070">"ಸಿಮ್‌ ಕಾರ್ಡ್ ಅನ್‌ಲಾಕ್ ಮಾಡಲು PUK2 ಟೈಪ್ ಮಾಡಿ."</string>
+    <string name="enablePin" msgid="209412020907207950">"ಯಶಸ್ವಿಯಾಗಿಲ್ಲ, ಸಿಮ್‌/RUIM ಲಾಕ್ ಸಕ್ರಿಯಗೊಳಿಸಿ."</string>
+    <plurals name="pinpuk_attempts" formatted="false" msgid="1251012001539225582">
+      <item quantity="one"> ಸಿಮ್‌ ಲಾಕ್‌ ಆಗುವುದಕ್ಕಿಂತ ಮೊದಲು ನಿಮ್ಮಲ್ಲಿ <xliff:g id="NUMBER_1">%d</xliff:g> ಪ್ರಯತ್ನಗಳು ಬಾಕಿ ಉಳಿದಿವೆ.</item>
+      <item quantity="other"> ಸಿಮ್‌ ಲಾಕ್‌ ಆಗುವುದಕ್ಕಿಂತ ಮೊದಲು ನಿಮ್ಮಲ್ಲಿ <xliff:g id="NUMBER_1">%d</xliff:g> ಪ್ರಯತ್ನಗಳು ಬಾಕಿ ಉಳಿದಿವೆ.</item>
+    </plurals>
+    <string name="imei" msgid="2625429890869005782">"IMEI"</string>
+    <string name="meid" msgid="4841221237681254195">"MEID"</string>
+    <string name="ClipMmi" msgid="6952821216480289285">"ಒಳಬರುವ ಕರೆಮಾಡುವವರ ID"</string>
+    <string name="ClirMmi" msgid="7784673673446833091">"ಹೊರಹೋಗುವ ಕರೆಮಾಡುವವರ ID"</string>
+    <string name="ColpMmi" msgid="3065121483740183974">"ಲೈನ್ ID ಗೆ ಸಂಪರ್ಕಪಡಿಸಲಾಗಿದೆ"</string>
+    <string name="ColrMmi" msgid="4996540314421889589">"ಲೈನ್ ID ನಿರ್ಬಂಧನೆ ಸಂಪರ್ಕಪಡಿಸಲಾಗಿದೆ"</string>
+    <string name="CfMmi" msgid="5123218989141573515">"ಕರೆಯ ರವಾನೆ"</string>
+    <string name="CwMmi" msgid="9129678056795016867">"ಕರೆ ನಿರೀಕ್ಷೆ"</string>
+    <string name="BaMmi" msgid="455193067926770581">"ಕರೆ ಬಾರಿಂಗ್"</string>
+    <string name="PwdMmi" msgid="7043715687905254199">"ಪಾಸ್‌ವರ್ಡ್ ಬದಲಾವಣೆ"</string>
+    <string name="PinMmi" msgid="3113117780361190304">"ಪಿನ್‌ ಬದಲಾವಣೆ"</string>
+    <string name="CnipMmi" msgid="3110534680557857162">"ಕರೆ ಮಾಡುತ್ತಿರುವ ಸಂಖ್ಯೆಯು ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ"</string>
+    <string name="CnirMmi" msgid="3062102121430548731">"ಕರೆ ಮಾಡುವ ಸಂಖ್ಯೆಯನ್ನು ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ"</string>
+    <string name="ThreeWCMmi" msgid="9051047170321190368">"ಮೂರು ಮಾರ್ಗದಲ್ಲಿ ಕರೆ ಮಾಡುವಿಕೆ"</string>
+    <string name="RuacMmi" msgid="7827887459138308886">"ಅನಪೇಕ್ಷಿತ ಕಿರಿಕಿರಿ ಮಾಡುವ ಕರೆಗಳ ತಿರಸ್ಕಾರ"</string>
+    <string name="CndMmi" msgid="3116446237081575808">"ಕರೆ ಮಾಡುವ ಸಂಖ್ಯೆಯ ವಿತರಣೆ"</string>
+    <string name="DndMmi" msgid="1265478932418334331">"ಅಡಚಣೆ ಮಾಡಬೇಡ"</string>
+    <string name="CLIRDefaultOnNextCallOn" msgid="429415409145781923">"ಕರೆಮಾಡುವವರ ID ಅನ್ನು ನಿರ್ಬಂಧಿಸುವಂತೆ ಡಿಫಾಲ್ಟ್ ಮಾಡಲಾಗಿದೆ. ಮುಂದಿನ ಕರೆ: ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ"</string>
+    <string name="CLIRDefaultOnNextCallOff" msgid="3092918006077864624">"ಕರೆಮಾಡುವವರ ID ಅನ್ನು ನಿರ್ಬಂಧಿಸುವಂತೆ ಡಿಫಾಲ್ಟ್ ಮಾಡಲಾಗಿದೆ. ಮುಂದಿನ ಕರೆ: ನಿರ್ಬಂಧಿಸಿಲ್ಲ"</string>
+    <string name="CLIRDefaultOffNextCallOn" msgid="6179425182856418465">"ಕರೆಮಾಡುವವರ ID ಅನ್ನು ನಿರ್ಬಂಧಿಸದಿರುವಂತೆ ಡಿಫಾಲ್ಟ್ ಮಾಡಲಾಗಿದೆ. ಮುಂದಿನ ಕರೆ: ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ"</string>
+    <string name="CLIRDefaultOffNextCallOff" msgid="2567998633124408552">"ಕರೆಮಾಡುವವರ ID ಅನ್ನು ನಿರ್ಬಂಧಿಸದಿರುವಂತೆ ಡಿಫಾಲ್ಟ್ ಮಾಡಲಾಗಿದೆ. ಮುಂದಿನ ಕರೆ: ನಿರ್ಬಂಧಿಸಲಾಗಿಲ್ಲ"</string>
+    <string name="serviceNotProvisioned" msgid="8614830180508686666">"ಸೇವೆಯನ್ನು ಪೂರೈಸಲಾಗಿಲ್ಲ."</string>
+    <string name="CLIRPermanent" msgid="3377371145926835671">"ನೀವು ಕಾಲರ್‌ ID ಸೆಟ್ಟಿಂಗ್‌ ಬದಲಾಯಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ."</string>
+    <string name="RestrictedOnDataTitle" msgid="5221736429761078014">"ಮೊಬೈಲ್ ಡೇಟಾ ಸೇವೆಯಿಲ್ಲ"</string>
+    <string name="RestrictedOnEmergencyTitle" msgid="6855466023161191166">"ತುರ್ತು ಕರೆ ಲಭ್ಯವಿಲ್ಲ"</string>
+    <string name="RestrictedOnNormalTitle" msgid="3179574012752700984">"ಧ್ವನಿ ಸೇವೆಯಿಲ್ಲ"</string>
+    <string name="RestrictedOnAllVoiceTitle" msgid="8037246983606545202">"ಯಾವುದೇ ಧ್ವನಿ ಸೇವೆ ಅಥವಾ ತುರ್ತು ಕರೆಗಳಿಲ್ಲ"</string>
+    <string name="RestrictedStateContent" msgid="6538703255570997248">"ನಿಮ್ಮ ವಾಹಕದ ಮೂಲಕ ತಾತ್ಕಾಲಿಕವಾಗಿ ಆಫ್ ಮಾಡಲಾಗಿದೆ"</string>
+    <string name="RestrictedStateContentMsimTemplate" msgid="673416791370248176">"ಸಿಮ್ <xliff:g id="SIMNUMBER">%d</xliff:g> ಗಾಗಿ ನಿಮ್ಮ ವಾಹಕದ ಮೂಲಕ ತಾತ್ಕಾಲಿಕವಾಗಿ ಆಫ್ ಮಾಡಲಾಗಿದೆ"</string>
+    <string name="NetworkPreferenceSw

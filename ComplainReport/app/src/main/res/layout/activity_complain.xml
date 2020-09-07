@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#F4F4F4"
+    android:padding="20dp"
+    tools:context=".ComplainActivity">
+    <TextView
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register Complain"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:textColor="#060000"
+        android:layout_marginTop="5dp"
+        />
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:id="@+id/ivm"
+        android:src="@drawable/camera"
+        />
+
+
+    <EditText
+        android:textColorHint="#3C3939"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Category"
+        android:textColor="#060000"
+        android:id="@+id/cate"
+        android:text=""
+
+        />
+   <!-- <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_gravity="center"
+        android:background="#050404"/>-->
+    <EditText
+        android:layout_width="match_parent"
+        android:textColorHint="#3C3939"
+        android:layout_height="wrap_content"
+        android:hint="Severity"
+        android:id="@+id/sev"
+        android:textColor="#060000"
+        android:text=""
+        />
+  <!--  <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_gravity="center"
+        android:background="#050404"/>-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        android:textColorHint="#3C3939"
+        android:id="@+id/des"
+        android:text=""
+        android:textColor="#060000"
+
+        />
+  <!--  <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_gravity="center"
+        android:background="#050404"/>-->
+    <TextView
+        android:textColor="#060000"
+
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/loc"/>
+    <TextView
+        android:textColor="#060000"
+
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_marginTop="2dp"
+        android:id="@+id/loci"/>
+
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3F51B5"
+        android:textColor="#FFFEFE"
+        android:id="@+id/sq"
+        android:text="Save Complain"/>
+    <Button
+        android:layout_marginTop="5dp"
+        android:background="#3F51B5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFEFE"
+        android:id="@+id/savee"
+        android:text="Send Complain To Server"/>
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3F51B5"
+        android:textColor="#FFF"
+        android:id="@+id/shawC"
+        android:text="See All Complains"/>
+
+
+
+</LinearLayout>

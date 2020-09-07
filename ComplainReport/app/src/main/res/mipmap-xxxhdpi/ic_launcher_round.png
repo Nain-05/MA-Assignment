@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="byteShort" msgid="8340973892742019101">"B"</string>
+    <string name="kilobyteShort" msgid="7542884022844556968">"KB"</string>
+    <string name="megabyteShort" msgid="6355851576770428922">"MB"</string>
+    <string name="gigabyteShort" msgid="3259882455212193214">"GB"</string>
+    <string name="terabyteShort" msgid="231613018159186962">"TB"</string>
+    <string name="petabyteShort" msgid="5637816680144990219">"PB"</string>
+    <string name="fileSizeSuffix" msgid="8897567456150907538">"<xliff:g id="NUMBER">%1$s</xliff:g><xliff:g id="UNIT">%2$s</xliff:g>"</string>
+    <string name="untitled" msgid="4638956954852782576">"&lt;제목 없음&gt;"</string>
+    <string name="emptyPhoneNumber" msgid="7694063042079676517">"(전화번호 없음)"</string>
+    <string name="unknownName" msgid="6867811765370350269">"알 수 없음"</string>
+    <string name="defaultVoiceMailAlphaTag" msgid="2660020990097733077">"음성사서함"</string>
+    <string name="defaultMsisdnAlphaTag" msgid="2850889754919584674">"MSISDN1"</string>
+    <string name="mmiError" msgid="5154499457739052907">"연결에 문제가 있거나 MMI 코드가 잘못되었습니다."</string>
+    <string name="mmiFdnError" msgid="5224398216385316471">"발신 허용 번호에서만 수행할 수 있는 작업입니다."</string>
+    <string name="mmiErrorWhileRoaming" msgid="762488890299284230">"로밍 중에는 착신 전환 설정을 변경할 수 없습니다."</string>
+    <string name="serviceEnabled" msgid="8147278346414714315">"서비스를 사용하도록 설정했습니다."</string>
+    <string name="serviceEnabledFor" msgid="6856228140453471041">"사용 설정된 서비스 목록:"</string>
+    <string name="serviceDisabled" msgid="1937553226592516411">"서비스가 사용 중지되었습니다."</string>
+    <string name="serviceRegistered" msgid="6275019082598102493">"등록이 완료되었습니다."</string>
+    <string name="serviceErased" msgid="1288584695297200972">"삭제했습니다."</string>
+    <string name="passwordIncorrect" msgid="7612208839450128715">"비밀번호가 잘못되었습니다."</string>
+    <string name="mmiComplete" msgid="8232527495411698359">"MMI 완료"</string>
+    <string name="badPin" msgid="9015277645546710014">"입력한 이전 PIN이 올바르지 않습니다."</string>
+    <string name="badPuk" msgid="5487257647081132201">"입력한 PUK가 올바르지 않습니다."</string>
+    <string name="mismatchPin" msgid="609379054496863419">"입력한 PIN이 일치하지 않습니다."</string>
+    <string name="invalidPin" msgid="3850018445187475377">"4~ 8자리 숫자로 된 PIN을 입력하세요."</string>
+    <string name="invalidPuk" msgid="8761456210898036513">"8자리 이상의 숫자 PUK를 입력합니다."</string>
+    <string name="needPuk" msgid="919668385956251611">"SIM 카드의 PUK가 잠겨 있습니다. 잠금해제하려면 PUK 코드를 입력하세요."</string>
+    <string name="needPuk2" msgid="4526033371987193070">"SIM 카드 잠금을 해제하려면 PUK2를 입력하세요."</string>
+    <string name="enablePin" msgid="209412020907207950">"실패했습니다. SIM/RUIM 잠금을 사용 설정하세요."</string>
+    <plurals name="pinpuk_attempts" formatted="false" msgid="1251012001539225582">
+      <item quantity="other"><xliff:g id="NUMBER_1">%d</xliff:g>번 더 실패하면 SIM이 잠깁니다.</item>
+      <item quantity="one"><xliff:g id="NUMBER_0">%d</xliff:g>번 더 실패하면 SIM이 잠깁니다.</item>
+    </plurals>
+    <string name="imei" msgid="2625429890869005782">"IMEI"</string>
+    <string name="meid" msgid="4841221237681254195">"MEID"</string>
+    <string name="ClipMmi" msgid="6952821216480289285">"발신자 번호"</string>
+    <string name="ClirMmi" msgid="7784673673446833091">"내 발신 번호"</string>
+    <string name="ColpMmi" msgid="3065121483740183974">"환승편 ID"</string>
+    <string name="ColrMmi" msgid="4996540314421889589">"환승편 ID 제한"</string>
+    <string name="CfMmi" msgid="5123218989141573515">"착신전환"</string>
+    <string name="CwMmi" msgid="9129678056795016867">"통화중 대기"</string>
+    <string name="BaMmi" msgid="455193067926770581">"착발신 제한"</string>
+    <string name="PwdMmi" msgid="7043715687905254199">"비밀번호 변경"</string>
+    <string name="PinMmi" msgid="3113117780361190304">"PIN 변경"</string>
+    <string name="CnipMmi" msgid="3110534680557857162">"통화 번호 존재"</string>
+    <string name="CnirMmi" msgid="3062102121430548731">"제한된 통화 번호"</string>
+    <string name="ThreeWCMmi" msgid="9051047170321190368">"3자 통화"</string>
+    <string name="RuacMmi" msgid="7827887459138308886">"원하지 않는 통화 수신 거부"</string>
+    <string name="CndMmi" msgid="3116446237081575808">"통화 번호 전달"</string>
+    <string name="DndMmi" msgid="1265478932418334331">"응답 거부"</string>
+    <string name="CLIRDefaultOnNextCallOn" msgid="429415409145781923">"발신자 번호가 기본적으로 제한됨으로 설정됩니다. 다음 통화: 제한됨"</string>
+    <string name="CLIRDefaultOnNextCallOff" msgid="3092918006077864624">"발신자 번호가 기본적으로 제한됨으로 설정됩니다. 다음 통화: 제한되지 않음"</string>
+    <string name="CLIRDefaultOffNextCallOn" msgid="6179425182856418465">"발신자 번호가 기본적으로 제한되지 않음으로 설정됩니다. 다음 통화: 제한됨"</string>
+    <string name="CLIRDefaultOffNextCallOff" msgid="2567998633124408552">"발신자 번호가 기본적으로 제한되지 않음으로 설정됩니다. 다음 통화: 제한되지 않음"</string>
+    <string name="serviceNotProvisioned" msgid="8614830180508686666">"서비스가 준비되지 않았습니다."</string>
+    <string name="CLIRPermanent" msgid="3377371145926835671">"발신자 번호 설정을 변경할 수 없습니다."</string>
+    <string name="RestrictedOnDataTitle" msgid="5221736429761078014">"모바일 데이터 서비스가 차단됨"</string>
+    <string name="RestrictedOnEmergencyTitle" msgid="6855466023161191166">"긴급 전화를 사용할 수 없음"</string>
+    <string name="RestrictedOnNormalTitle" msgid="3179574012752700984">"음성 서비스를 이용할 수 없음"</string>
+    <string name="RestrictedOnAllVoiceTitle" msgid="8037246983606545202">"음성 서비스 및 긴급 전화가 차단됨"</string>
+    <string name="RestrictedStateContent" msgid="6538703255570997248">"이동통신사에서 서비스를 일시적으로 사용 중지했습니다."</string>
+    <string name="RestrictedStateContentMsimTemplate" msgid="673416791370248176">"이동통신사에서 SIM <xliff:g id="SIMNUMBER">%d</xliff:g>의 서비스를 일시적으로 사용 중지했습니다."</string>
+    <string name="NetworkPreferenceSwitchTitle" msgid="6982395015324165258">"모바일 네트워크에 연결할 수 없습니다."</string>
+    <string name="NetworkPreferenceSwitchSummary" msgid="509327194863482733">"기본 네트워크를 변경해 보세요. 탭하여 변경할 수 있습니다."</string>
+    <string name="EmergencyCallWarningTitle" msgid="813380189532491336">"긴급 전화를 사용할 수 없습니다."</string>
+    <string name="EmergencyCallWarningSummary" msgid="1899692069750260619">"Wi‑Fi로는 긴급 전화를 걸 수 없습니다."</string>
+    <string name="notification_channel_network_alert" msgid="4427736684338074967">"알림"</string>
+    <string name="notification_channel_call_forward" msgid="2419697808481833249">"착신전환"</string>
+    <string name="notification_channel_emergency_callback" msgid="6686166232265733921">"긴급 콜백 모드"</string>
+    <string name="notification_channel_mobile_data_status" msgid="4575131690860945836">"모바일 데이터 상태"</string>
+    <string name="notification_channel_sms" msgid="3441746047346135073">"SMS 메시지"</string>
+    <string name="notification_channel_voice_mail" msgid="3954099424160511919">"음성사서함 메시지"</string>
+    <string name="notification_channel_wfc" msgid="2130802501654254801">"Wi-Fi 통화"</string>
+    <string name="notification_channel_sim" msgid="4052095493875188564">"SIM 상태"</string>
+    <string name="peerTtyModeFull" msgid="6165351790010341421">"피어가 TTY 모드 FULL을 요청했습니다."</string>
+    <string name="peerTtyModeHco" msgid="5728602160669216784">"피어가 TTY 모드 HCO를 요청했습니다."</string>
+    <string name="peerTtyModeVco" msgid="1742404978686538049">"피어가 TTY 모드 VCO를 요청했습니다."</string>
+    <string name="peerTtyModeOff" msgid="3280819717850602205">"피어가 TTY 모드 OFF를 요청했습니다."</string>
+    <string name="serviceClassVoice" msgid="1258393812335258019">"음성"</string>
+    <string name="serviceClassData" msgid="872456782077937893">"데이터"</string>
+    <string name="serviceClassFAX" msgid="5566624998840486475">"팩스"</string>
+    <string name="serviceClassSMS" msgid="2015460373701527489">"SMS"</string>
+    <string name="serviceClassDataAsync" msgid="4523454783498551468">"비동기식"</string>
+    <string name="serviceClassDataSync" msgid="7530000519646054776">"동기식"</string>
+    <string name="serviceClassPacket" msgid="6991006557993423453">"패킷"</string>
+    <string name="serviceClassPAD" msgid="3235259085648271037">"PAD"</string>
+    <string name="roamingText0" msgid="7170335472198694945">"로밍 표시기 사용"</string>
+    <string name="roamingText1" msgid="5314861519752538922">"로밍 표시기 사용 안함"</string>
+    <string name="roamingText2" msgid="8969929049081268115">"로밍 표시기 깜박임"</string>
+    <string name="roamingText3" msgid="5148255027043943317">"인근 지역 외부"</string>
+    <string name="roamingText4" msgid="8808456682550796530">"건물 밖"</string>
+    <string name="roamingText5" msgid="7604063252850354350">"로밍 - 기본 시스템"</string>
+    <string name="roamingText6" msgid="2059440825782871513">"로밍 - 사용 가능한 시스템"</string>
+    <string name="roamingText7" msgid="7112078724097233605">"로밍 - 제휴 파트너"</string>
+    <string name="roamingText8" msgid="5989569778604089291">"로밍 - 프리미엄 파트너"</string>
+    <string name="roamingText9" msgid="7969296811355152491">"로밍 - 전체 서비스 기능"</string>
+    <string name="roamingText10" msgid="3992906999815316417">"로밍 - 부분 서비스 기능"</string>
+    <string name="roamingText11" msgid="4154476854426920970">"로밍 배너 사용"</string>
+    <string name="roamingText12" msgid="1189071119992726320">"로밍 배너 사용 안함"</string>
+    <string name="roamingTextSearching" msgid="8360141885972279963">"서비스 검색 중"</string>
+    <string name="wfcRegErrorTitle" msgid="3855061241207182194">"Wi‑Fi 통화를 설정할 수 없음"</string>
+  <string-array name="wfcOperatorErrorAlertMessages">
+    <item msgid="3910386316304772394">"Wi-Fi를 사용하여 전화를 걸고 메시지를 보내려면 먼저 이동통신사에 문의하여 서비스를 설정해야 합니다. 그런 다음 설정에서 Wi-Fi 통화를 사용 설정하시기 바랍니다. (오류 코드: <xliff:g id="CODE">%1$s</xliff:g>)"</item>
+  </string-array>
+  <string-array name="wfcOperatorErrorNotificationMessages">
+    <item msgid="7372514042696663278">"이동통신사를 통해 Wi‑Fi 통화를 등록하는 중에 문제가 발생했습니다. 오류 코드: <xliff:g id="CODE">%1$s</xliff:g>"</item>
+  </string-array>
+  <string-array name="wfcSpnFormats">
+    <item msgid="6830082633573257149">"%s"</item>
+    <item msgid="4397097370387921767">"%s Wi-Fi 통화"</item>
+  </string-array>
+    <string name="wifi_calling_off_summary" msgid="8720659586041656098">"꺼짐"</string>
+    <string name="wfc_mode_wifi_preferred_summary" msgid="1994113411286935263">"Wi-Fi를 기본으로 설정"</string>
+    <string name="wfc_mode_cellular_preferred_summary" msgid="1988279625335345908">"모바일에 최적화됨"</string>
+    <string name="wfc_mode_wifi_only_summary" msgid="2379919155237869320">"Wi-Fi에서만"</string>
+    <string name="cfTemplateNotForwarded" msgid="1683685883841272560">"<xliff:g id="BEARER_SERVICE_CODE">{0}</xliff:g>: 착신전환 안됨"</string>
+    <string name="cfTemplateForwarded" msgid="1302922117498590521">"<xliff:g id="BEARER_SERVICE_CODE">{0}</xliff:g>: <xliff:g id="DIALING_NUMBER">{1}</xliff:g>"</string>
+    <string name="cfTemplateForwardedTime" msgid="9206251736527085256">"<xliff:g id="BEARER_SERVICE_CODE">{0}</xliff:g>: <xliff:g id="DIALING_NUMBER">{1}</xliff:g><xliff:g id="TIME_DELAY">{2}</xliff:g>초 후"</string>
+    <string name="cfTemplateRegistered" msgid="5073237827620166285">"<xliff:g id="BEARER_SERVICE_CODE">{0}</xliff:g>: 착신전환 안됨"</string>
+    <string name="cfTemplateRegisteredTime" msgid="6781621964320635172">"<xliff:g id="BEARER_SERVICE_CODE">{0}</xliff:g>: 착신전환 안됨"</string>
+    <string name="fcComplete" msgid="3118848230966886575">"기능 코드가 완료되었습니다."</string>
+    <string name="fcError" msgid="3327560126588500777">"연결에 문제가 있거나 기능 코드가 잘못되었습니다."</string>
+    <string name="httpErrorOk" msgid="1191919378083472204">"확인"</string>
+    <string name="httpError" msgid="7956392511146698522">"네트워크 오류가 발생했습니다."</string>
+    <string name="httpErrorLookup" msgid="4711687456111963163">"URL을 찾을 수 없습니다."</string>
+    <string name="httpErrorUnsupportedAuthScheme" msgid="6299980280442076799">"사이트 인증 스키마가 지원되지 않습니다."</string>
+    <string name="httpErrorAuth" msgid="1435065629438044534">"인증할 수 없습니다."</string>
+    <string name="httpErrorProxyAuth" msgid="1788207010559081331">"프록시 서버를 통한 인증에 실패했습니다."</string>
+    <string name="httpErrorConnect" msgid="8714273236364640549">"서버에 연결하지 못했습니다."</string>
+    <string name="httpErrorIO" msgid="2340558197489302188">"서버와 통신할 수 없습니다. 다시 시도해 주세요."</string>
+    <string name="httpErrorTimeout" msgid="4743403703762883954">"서버 연결 제한시간이 초과되었습니다."</string>
+    <string name="httpErrorRedirectLoop" msgid="8679596090392779516">"페이지에 서버 리디렉션이 너무 많이 포함되어 있습니다."</string>
+    <string name="httpErrorUnsupportedScheme" msgid="5015730812906192208">"지원되지 않는 프로토콜입니다."</string>
+    <string name="httpErrorFailedSslHandshake" msgid="96549606000658641">"보안 연결을 설정할 수 없습니다."</string>
+    <string name="httpErrorBadUrl" msgid="3636929722728881972">"URL이 올바르지 않아 페이지를 열 수 없습니다."</string>
+    <string name="httpErrorFile" msgid="2170788515052558676">"파일에 액세스할 수 없습니다."</string>
+    <string name="httpErrorFileNotFound" msgid="6203856612042655084">"요청한 파일을 찾을 수 없습니다."</string>
+    <string name="httpErrorTooManyRequests" msgid="1235396927087188253">"처리 중인 요청이 너무 많습니다. 잠시 후에 다시 시도해 주세요."</string>
+    <string name="notification_title" msgid="8967710025036163822">"<xliff:g id="ACCOUNT">%1$s</xliff:g>에 로그인 오류 발생"</string>
+    <string name="contentServiceSync" msgid="8353523060269335667">"동기화"</string>
+    <string name="contentServiceSyncNotificationTitle" msgid="7036196943673524858">"동기화할 수 없음"</string>
+    <string name="contentServiceTooManyDeletesNotificationDesc" msgid="4884451152168188763">"<xliff:g id="CONTENT_TYPE">%s</xliff:g> 콘텐츠를 너무 많이 �

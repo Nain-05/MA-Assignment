@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="byteShort" msgid="8340973892742019101">"B"</string>
+    <string name="kilobyteShort" msgid="7542884022844556968">"kB"</string>
+    <string name="megabyteShort" msgid="6355851576770428922">"មេកាបៃ"</string>
+    <string name="gigabyteShort" msgid="3259882455212193214">"ជីកាបៃ"</string>
+    <string name="terabyteShort" msgid="231613018159186962">"តេរ៉ាបៃ"</string>
+    <string name="petabyteShort" msgid="5637816680144990219">"PB"</string>
+    <string name="fileSizeSuffix" msgid="8897567456150907538">"<xliff:g id="NUMBER">%1$s</xliff:g> <xliff:g id="UNIT">%2$s</xliff:g>"</string>
+    <string name="untitled" msgid="4638956954852782576">"&lt;គ្មាន​ចំណង​ជើង&gt;"</string>
+    <string name="emptyPhoneNumber" msgid="7694063042079676517">"(គ្មាន​លេខ​ទូរស័ព្ទ)"</string>
+    <string name="unknownName" msgid="6867811765370350269">"មិន​ស្គាល់"</string>
+    <string name="defaultVoiceMailAlphaTag" msgid="2660020990097733077">"សារ​ជា​សំឡេង"</string>
+    <string name="defaultMsisdnAlphaTag" msgid="2850889754919584674">"MSISDN1"</string>
+    <string name="mmiError" msgid="5154499457739052907">"បញ្ហា​ក្នុង​ការ​តភ្ជាប់​ ឬ​កូដ MMI មិន​ត្រឹមត្រូវ។"</string>
+    <string name="mmiFdnError" msgid="5224398216385316471">"ប្រតិបត្តិការ​ត្រូវ​បាន​ដាក់​កម្រិត​​​ចំពោះ​លេខ​ហៅ​ថេរ​តែ​ប៉ុណ្ណោះ។"</string>
+    <string name="mmiErrorWhileRoaming" msgid="762488890299284230">"មិន​អាច​ប្តូរ​ការ​កំណត់​នៃ​ការ​បញ្ជូន​ការ​ហៅ​បន្ត​ពី​ទូរសព្ទ​របស់​អ្នក​បាន​ទេ​ ខណៈ​ពេល​ដែល​អ្នក​កំពុង​ប្រើ​សេវា​រ៉ូមីង។"</string>
+    <string name="serviceEnabled" msgid="8147278346414714315">"បាន​បើក​សេវាកម្ម។"</string>
+    <string name="serviceEnabledFor" msgid="6856228140453471041">"បាន​បើក​សេវាកម្ម​សម្រាប់៖"</string>
+    <string name="serviceDisabled" msgid="1937553226592516411">"បាន​បិទ​សេវាកម្ម។"</string>
+    <string name="serviceRegistered" msgid="6275019082598102493">"ការ​ចុះឈ្មោះ​ជោគ​ជ័យ។"</string>
+    <string name="serviceErased" msgid="1288584695297200972">"ការ​លុប​បាន​ជោគជ័យ។"</string>
+    <string name="passwordIncorrect" msgid="7612208839450128715">"ពាក្យ​សម្ងាត់​មិន​ត្រឹម​ត្រូវ"</string>
+    <string name="mmiComplete" msgid="8232527495411698359">"MMI បញ្ចប់​។"</string>
+    <string name="badPin" msgid="9015277645546710014">"កូដ PIN ចាស់​ដែល​អ្នក​បាន​បញ្ចូល​មិន​ត្រឹមត្រូវ។"</string>
+    <string name="badPuk" msgid="5487257647081132201">"កូដ PUK ដែល​អ្នក​បាន​បញ្ចូល​មិន​ត្រឹមត្រូវ។"</string>
+    <string name="mismatchPin" msgid="609379054496863419">"កូដ​ PIN ដែល​អ្នក​បាន​បញ្ចូល​​មិន​ដូច​គ្នា។"</string>
+    <string name="invalidPin" msgid="3850018445187475377">"បញ្ចូល​កូដ PIN ដែល​មាន​​​ពី ៤ ដល់ ៨​លេខ"</string>
+    <string name="invalidPuk" msgid="8761456210898036513">"បញ្ចូល​កូដ PUK ដែល​មាន​ពី​ ៨ លេខ​ ឬ​វែង​ជាង​នេះ។"</string>
+    <string name="needPuk" msgid="919668385956251611">"ស៊ីមកាត​​របស់​អ្នក​ជាប់​កូដ PUK ។ បញ្ចូល​កូដ PUK ដើម្បី​ដោះ​សោ។"</string>
+    <string name="needPuk2" msgid="4526033371987193070">"បញ្ចូល​កូដ PUK2 ដើម្បី​ដោះ​សោ​ស៊ីម​កាត។"</string>
+    <string name="enablePin" msgid="209412020907207950">"បរាជ័យ, បើក​ការ​ចាក់សោ​ស៊ី​ម / RUIM ។"</string>
+    <plurals name="pinpuk_attempts" formatted="false" msgid="1251012001539225582">
+      <item quantity="other">អ្នកនៅសល់ការព្យាយាម <xliff:g id="NUMBER_1">%d</xliff:g> ដងទៀត មុនពេលស៊ីមត្រូវចាក់សោ។</item>
+      <item quantity="one">អ្នកនៅសល់ការព្យាយាម <xliff:g id="NUMBER_0">%d</xliff:g> ដងទៀត មុនពេលស៊ីមត្រូវចាក់សោ។</item>
+    </plurals>
+    <string name="imei" msgid="2625429890869005782">"IMEI"</string>
+    <string name="meid" msgid="4841221237681254195">"MEID"</string>
+    <string name="ClipMmi" msgid="6952821216480289285">"លេខ​សម្គាល់​អ្នក​ហៅ​​ចូល​"</string>
+    <string name="ClirMmi" msgid="7784673673446833091">"លេខ​សម្គាល់​អ្នក​ហៅ​ចេញ"</string>
+    <string name="ColpMmi" msgid="3065121483740183974">"បាន​ភ្ជាប់​លេខ​សម្គាល់​បន្ទាត់"</string>
+    <string name="ColrMmi" msgid="4996540314421889589">"បាន​ភ្ជាប់​ការ​ដាក់កម្រិត​លេខ​សម្គាល់​បន្ទាត់"</string>
+    <string name="CfMmi" msgid="5123218989141573515">"បញ្ជូន​ការ​ហៅ​បន្ត"</string>
+    <string name="CwMmi" msgid="9129678056795016867">"រង់ចាំ​ការ​ហៅ"</string>
+    <string name="BaMmi" msgid="455193067926770581">"រារាំង​ការ​ហៅ"</string>
+    <string name="PwdMmi" msgid="7043715687905254199">"ប្ដូរ​ពាក្យ​សម្ងាត់"</string>
+    <string name="PinMmi" msgid="3113117780361190304">"ប្ដូរ​កូដ PIN"</string>
+    <string name="CnipMmi" msgid="3110534680557857162">"បង្ហាញ​ការ​ហៅ​លេខ"</string>
+    <string name="CnirMmi" msgid="3062102121430548731">"បាន​ដាក់​កម្រិត​ការ​ហៅ​លេខ"</string>
+    <string name="ThreeWCMmi" msgid="9051047170321190368">"ការ​ហៅ​បី​ផ្លូវ"</string>
+    <string name="RuacMmi" msgid="7827887459138308886">"បដិសេធ​ការ​ហៅ​រំខាន​ដែល​មិន​ចង់បាន"</string>
+    <string name="CndMmi" msgid="3116446237081575808">"ការ​បញ្ជូន​លេខ​ហៅ"</string>
+    <string name="DndMmi" msgid="1265478932418334331">"កុំ​រំខាន"</string>
+    <string name="CLIRDefaultOnNextCallOn" msgid="429415409145781923">"បាន​ដាក់​កម្រិត​លំនាំដើម​លេខ​សម្គាល់​អ្នក​ហៅ។​​​ ការ​ហៅ​បន្ទាប់៖​ បាន​ដាក់កម្រិត"</string>
+    <string name="CLIRDefaultOnNextCallOff" msgid="3092918006077864624">"មិន​បាន​ដាក់កម្រិត​លំនាំដើម​លេខ​សម្គាល់​អ្នក​ហៅ។ ការ​ហៅ​បន្ទាប់៖ មិន​បាន​ដាក់​កម្រិត។"</string>
+    <string name="CLIRDefaultOffNextCallOn" msgid="6179425182856418465">"មិន​បាន​ដាក់​កម្រិត​លេខ​សម្គាល់​អ្នក​ហៅ​លំនាំ​ដើម។ ការ​ហៅ​បន្ទាប់៖​ បាន​ដាក់កម្រិត"</string>
+    <string name="CLIRDefaultOffNextCallOff" msgid="2567998633124408552">"មិន​បាន​ដាក់កម្រិត​លំនាំដើម​លេខ​សម្គាល់​អ្នក​ហៅ។ ការ​ហៅ​បន្ទាប់៖ មិន​បាន​ដាក់​កម្រិត។"</string>
+    <string name="serviceNotProvisioned" msgid="8614830180508686666">"មិន​បាន​ផ្ដល់​សេវាកម្ម។"</string>
+    <string name="CLIRPermanent" msgid="3377371145926835671">"អ្នក​មិន​អាច​ប្ដូរ​ការ​កំណត់​លេខ​សម្គាល់​អ្នក​ហៅ​បានទេ។"</string>
+    <string name="RestrictedOnDataTitle" msgid="5221736429761078014">"គ្មាន​​សេវាកម្ម​ទិន្នន័យ​ចល័ត​ទេ"</string>
+    <string name="RestrictedOnEmergencyTitle" msgid="6855466023161191166">"ការ​ហៅ​បន្ទាន់​មិន​អាច​ប្រើ​បាន​ទេ"</string>
+    <string name="RestrictedOnNormalTitle" msgid="3179574012752700984">"គ្មាន​សេវាកម្ម​ជា​សំឡេង​ទេ"</string>
+    <string name="RestrictedOnAllVoiceTitle" msgid="8037246983606545202">"គ្មាន​សេវាកម្ម​សំឡេង ឬការ​ហៅ​បន្ទាន់​ទេ"</string>
+    <string name="RestrictedStateContent" msgid="6538703255570997248">"បិទ​ដោយ​ក្រុមហ៊ុន​សេវា​ទូរសព្ទ​របស់អ្នក​ជាបណ្តោះ​អាសន្ន"</string>
+    <string name="RestrictedStateContentMsimTemplate" msgid="673416791370248176">"បិទ​​ដោយ​ក្រុមហ៊ុន​សេវា​ទូរសព្ទ​របស់អ្នកជាបណ្តោះ​អាសន្ន ​សម្រាប់​ស៊ីមទី <xliff:g id="SIMNUMBER">%d</xliff:g>"</string>
+    <string name="NetworkPreferenceSwitchTitle" msgid="6982395015324165258">"មិន​អាច​ភ្ជាប់​បណ្ដាញ​ទូរសព្ទ​ចល័តបានទេ"</string>
+    <string name="NetworkPreferenceSwitchSummary" msgid="509327194863482733">"សាកល្បង​ប្ដូរ​ទៅបណ្ដាញ​ដែល​ចង់ប្រើ។ សូមចុច​ដើម្បីផ្លាស់​ប្ដូរ។"</string>
+    <string name="EmergencyCallWarningTitle" msgid="813380189532491336">"មិន​អាច​ប្រើ​ការ​ហៅ​បន្ទាន់​បានទេ"</string>
+    <string name="EmergencyCallWarningSummary" msgid="1899692069750260619">"មិន​អាចធ្វើការ​ហៅ​បន្ទាន់​តាម Wi‑Fi បានទេ"</string>
+  

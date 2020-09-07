@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/nest"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#F4F4F4"
+    tools:context=".LoginActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textColor="#060000"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="30sp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/lEmail"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="40dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/leemail"
+            android:hint="Enter Your Email"
+            android:inputType="text"
+            android:textColorHint="#3C3939"
+            android:maxLines="1"
+            android:textColor="#010000"
+            />
+      <!--  <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:background="#050404"/>-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/lpass"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="40dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lepass"
+            android:hint="Enter Your Password"
+            android:textColorHint="#3C3939"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:textColor="#010000"
+            />
+        <!--<View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:background="#050404"/>-->
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#3F51B5"
+            android:text="SIGN IN"
+            android:textColor="#FFFEFE"
+            android:id="@+id/login"
+            android:layout_marginTop="40dp"
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:textColor="#010000"
+            android:gravity="center"
+            android:id="@+id/create"
+            android:layout_marginTop="40dp"
+            android:text="No Account Yet? Create One"/>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

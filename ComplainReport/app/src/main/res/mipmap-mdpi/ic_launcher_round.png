@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="byteShort" msgid="8340973892742019101">"B"</string>
+    <string name="kilobyteShort" msgid="7542884022844556968">"KB"</string>
+    <string name="megabyteShort" msgid="6355851576770428922">"MB"</string>
+    <string name="gigabyteShort" msgid="3259882455212193214">"GB"</string>
+    <string name="terabyteShort" msgid="231613018159186962">"TB"</string>
+    <string name="petabyteShort" msgid="5637816680144990219">"PB"</string>
+    <string name="fileSizeSuffix" msgid="8897567456150907538">"<xliff:g id="NUMBER">%1$s</xliff:g> <xliff:g id="UNIT">%2$s</xliff:g>"</string>
+    <string name="untitled" msgid="4638956954852782576">"&lt;新規&gt;"</string>
+    <string name="emptyPhoneNumber" msgid="7694063042079676517">"（電話番号なし）"</string>
+    <string name="unknownName" msgid="6867811765370350269">"不明"</string>
+    <string name="defaultVoiceMailAlphaTag" msgid="2660020990097733077">"ボイスメール"</string>
+    <string name="defaultMsisdnAlphaTag" msgid="2850889754919584674">"MSISDN1"</string>
+    <string name="mmiError" msgid="5154499457739052907">"接続に問題があるか、MMIコードが正しくありません。"</string>
+    <string name="mmiFdnError" msgid="5224398216385316471">"発信番号制限で指定された番号に対してのみ操作できます。"</string>
+    <string name="mmiErrorWhileRoaming" msgid="762488890299284230">"ローミング中はスマートフォンから着信転送設定の変更はできません。"</string>
+    <string name="serviceEnabled" msgid="8147278346414714315">"サービスが有効になりました。"</string>
+    <string name="serviceEnabledFor" msgid="6856228140453471041">"次のサービスが有効になりました:"</string>
+    <string name="serviceDisabled" msgid="1937553226592516411">"サービスが無効になりました。"</string>
+    <string name="serviceRegistered" msgid="6275019082598102493">"登録されました。"</string>
+    <string name="serviceErased" msgid="1288584695297200972">"消去されました。"</string>
+    <string name="passwordIncorrect" msgid="7612208839450128715">"パスワードが正しくありません。"</string>
+    <string name="mmiComplete" msgid="8232527495411698359">"MMIが完了しました。"</string>
+    <string name="badPin" msgid="9015277645546710014">"入力した古いPINは正しくありません。"</string>
+    <string name="badPuk" msgid="5487257647081132201">"入力したPUKは正しくありません。"</string>
+    <string name="mismatchPin" msgid="6

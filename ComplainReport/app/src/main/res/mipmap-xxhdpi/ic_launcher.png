@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="byteShort" msgid="8340973892742019101">"Б"</string>
+    <string name="kilobyteShort" msgid="7542884022844556968">"КБ"</string>
+    <string name="megabyteShort" msgid="6355851576770428922">"MБ"</string>
+    <string name="gigabyteShort" msgid="3259882455212193214">"ГБ"</string>
+    <string name="terabyteShort" msgid="231613018159186962">"TБ"</string>
+    <string name="petabyteShort" msgid="5637816680144990219">"ПБ"</string>
+    <string name="fileSizeSuffix" msgid="8897567456150907538">"<xliff:g id="NUMBER">%1$s</xliff:g> <xliff:g id="UNIT">%2$s</xliff:g>"</string>
+    <string name="untitled" msgid="4638956954852782576">"&lt;Атаусыз&gt;"</string>
+    <string name="emptyPhoneNumber" msgid="7694063042079676517">"(Телефон нөмірі жоқ)"</string>
+    <string name="unknownName" msgid="6867811765370350269">"Белгісіз"</string>
+    <string name="defaultVoiceMailAlphaTag" msgid="2660020990097733077">"Дауыстық пошта"</string>
+    <string name="defaultMsisdnAlphaTag" msgid="2850889754919584674">"MSISDN1"</string>
+    <string name="mmiError" msgid="5154499457739052907">"Байланыс мәселесі немесе MMИ коды жарамсыз."</string>
+    <string name="mmiFdnError" msgid="5224398216385316471">"Әрекет анықталған сандарды теруге шектелген."</string>
+    <string name="mmiErrorWhileRoaming" msgid="762488890299284230">"Роуминг кезінде телефоннан қоңырауды басқа нөмірге бағыттау параметрлері өзгертілмейді."</string>
+    <string name="serviceEnabled" msgid="8147278346414714315">"Қызмет қосылған."</string>
+    <string name="serviceEnabledFor" msgid="6856228140453471041">"Қызмет келесі мақсат үшін қосылды:"</string>
+    <string name="serviceDisabled" msgid="1937553226592516411">"Қызмет өшірілген."</string>
+    <string name="serviceRegistered" msgid="6275019082598102493">"Тіркеу сәтті орындалды."</string>
+    <string name="serviceErased" msgid="1288584695297200972">"Өшіру іске аспады."</string>
+    <string name="passwordIncorrect" msgid="7612208839450128715">"Қате кілтсөз."</string>
+    <string name="mmiComplete" msgid="8232527495411698359">"MMИ толық."</string>
+    <string name="badPin" msgid="9015277645546710014">"Сіз терген ескі PIN коды дұрыс емес."</string>
+    <string name="badPuk" msgid="5487257647081132201">"Cіз терген PUK коды дұрыс емес."</string>
+    <string name="mismatchPin" msgid="609379054496863419">"Сіз терген PIN кодтары сәйкес емес."</string>
+    <string name="invalidPin" msgid="3850018445187475377">"4-8 саннан тұратын PIN кодын теру."</string>
+    <string name="invalidPuk" msgid="8761456210898036513">"8 немесе одан көп саннан тұратын PUK кодын теру."</string>
+    <string name="needPuk" msgid="919668385956251611">"SIM картаңыз PUK арқылы бекітілген. Ашу үшін PUK кодын теріңіз."</string>
+    <string name="needPuk2" msgid="4526033371987193070">"SIM картасын ашу үшін PUK2 кодын теріңіз."</string>
+    <string name="enablePin" msgid="209412020907207950">"Сәтсіз, SIM/RUIM бекітпесін қосыңыз."</string>
+    <plurals name="pinpuk_attempts" formatted="false" msgid="1251012001539225582">
+      <item quantity="other">SIM картасының бекітілуіне <xliff:g id="NUMBER_1">%d</xliff:g> әрекет қалды.</item>
+      <item quantity="one">SIM картасының бекітілуіне <xliff:g id="NUMBER_0">%d</xliff:g> әрекет қалды.</item>
+    </plurals>
+    <string name="imei" msgid="2625429890869005782">"IMEI (Халықаралық мобильдік құрылғы анықтағышы)"</string>
+    <string name="meid" msgid="4841221237681254195">"MEID (ұялы құрылғы анықтағыш)"</string>
+    <string name="ClipMmi" msgid="6952821216480289285">"Келген қоңырау шалушының жеке анықтағышы"</string>
+    <string name="ClirMmi" msgid="7784673673446833091">"Шыққан қоңырау шалушының жеке анықтағышы"</string>
+    <string name="ColpMmi" msgid="3065121483740183974">"Қосылған желі идентификаторы"</string>
+    <string name="ColrMmi" msgid="4996540314421889589">"Қосылған желі идентификаторын шектеу"</string>
+    <string name="CfMmi" msgid="5123218989141573515">"Қоңырауды басқа нөмірге бағыттау"</string>
+    <string name="CwMmi" msgid="9129678056795016867">"Күтудегі қоңырау"</string>
+    <string name="BaMmi" msgid="455193067926770581">"Қоңырауды бөгеу"</string>
+    <string name="PwdMmi" msgid="7043715687905254199">"Құпия сөз өзгерту"</string>
+    <string name="PinMmi" msgid="3113117780361190304">"PIN өзгерту"</string>
+    <string name="CnipMmi" msgid="3110534680557857162">"Қоңырау шалу нөмірі берілген"</string>
+    <string name="CnirMmi" msgid="3062102121430548731">"Келген қоңырау нөмірі шектелген"</string>
+    <string name="ThreeWCMmi" msgid="9051047170321190368">"Қоңырау шалудың үш жолы"</string>
+    <string name="RuacMmi" msgid="7827887459138308886">"Мазаны алатын, қалаусыз қоңыраулардан бас тарту"</string>
+    <string name="CndMmi" msgid="3116446237081575808">"Қоңырау шалған нөмірді жеткізу"</string>
+    <string name="DndMmi" msgid="1265478932418334331">"Мазаламау"</string>
+    <string name="CLIRDefaultOnNextCallOn" msgid="429415409145781923">"Қоңырау шалушының жеке анықтағышы бастапқы бойынша шектелген. Келесі қоңырау: Шектелген"</string>
+    <string name="CLIRDefaultOnNextCallOff" msgid="3092918006077864624">"Қоңырау шалушының жеке анықтағышы бастапқы бойынша шектелген. Келесі қоңырау: Шектелмеген"</string>
+    <string name="CLIRDefaultOffNextCallOn" msgid="6179425182856418465">"Қоңырау шалушының жеке анықтағышы бастапқы бойынша шектелмеген. Келесі қоңырау: Шектелген"</string>
+    <string name="CLIRDefaultOffNextCallOff" msgid="2567998633124408552">"Қоңырау шалушының жеке анықтағышы бастапқы бойынша шектелмеген. Келесі қоңырау: Шектелмеген"</string>
+    <string name="serviceNotProvisioned" msgid="8614830180508686666">"Қызмет ұсынылмаған."</string>
+    <string name="CLIRPermanent" msgid="3377371145926

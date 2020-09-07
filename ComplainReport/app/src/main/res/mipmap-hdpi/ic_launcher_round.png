@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="byteShort" msgid="8340973892742019101">"B"</string>
+    <string name="kilobyteShort" msgid="7542884022844556968">"kB"</string>
+    <string name="megabyteShort" msgid="6355851576770428922">"MB"</string>
+    <string name="gigabyteShort" msgid="3259882455212193214">"GB"</string>
+    <string name="terabyteShort" msgid="231613018159186962">"TB"</string>
+    <string name="petabyteShort" msgid="5637816680144990219">"PB"</string>
+    <string name="fileSizeSuffix" msgid="8897567456150907538">"<xliff:g id="NUMBER">%1$s</xliff:g> <xliff:g id="UNIT">%2$s</xliff:g>"</string>
+    <string name="untitled" msgid="4638956954852782576">"‏&gt;ללא כותרת&lt;"</string>
+    <string name="emptyPhoneNumber" msgid="7694063042079676517">"(אין מספר טלפון)"</string>
+    <string name="unknownName" msgid="6867811765370350269">"לא ידוע"</string>
+    <string name="defaultVoiceMailAlphaTag" msgid="2660020990097733077">"דואר קולי"</string>
+    <string name="defaultMsisdnAlphaTag" msgid="2850889754919584674">"MSISDN1"</string>
+    <string name="mmiError" msgid="5154499457739052907">"‏בעיה בחיבור או קוד MMI לא חוקי."</string>
+    <string name="mmiFdnError" msgid="5224398216385316471">"הפעולה מוגבלת למספרי חיוג קבועים בלבד."</string>
+    <string name="mmiErrorWhileRoaming" msgid="762488890299284230">"לא ניתן לשנות את הגדרות העברת השיחות מהטלפון שלך כשאתה במצב נדידה."</string>
+    <string name="serviceEnabled" msgid="8147278346414714315">"השירות הופעל."</string>
+    <string name="serviceEnabledFor" msgid="6856228140453471041">"השירות הופעל עבור:"</string>
+    <string name="serviceDisabled" msgid="1937553226592516411">"השירות הושבת."</string>
+    <string name="serviceRegistered" msgid="6275019082598102493">"ההרשמה בוצעה בהצלחה."</string>
+    <string name="serviceErased" msgid="1288584695297200972">"המחיקה בוצעה בהצלחה."</string>
+    <string name="passwordIncorrect" msgid="7612208839450128715">"סיסמה שגויה."</string>
+    <string name="mmiComplete" msgid="8232527495411698359">"‏MMI הושלם."</string>
+    <string name="badPin" msgid="9015277645546710014">"קוד הגישה הישן שהקלדת שגוי."</string>
+    <string name="badPuk" msgid="5487257647081132201">"‏ה-PUK שהקלדת שגוי."</string>
+    <string name="mismatchPin" msgid="609379054496863419">"קודי הגישה שהקלדת לא תואמים."</string>
+    <string name="invalidPin" msgid="3850018445187475377">"הקלד קוד גישה שאורכו 4 עד 8 ספרות."</string>
+    <string name="invalidPuk" msgid="8761456210898036513">"‏הקלד PUK באורך 8 מספרים או יותר."</string>
+    <string name="needPuk" msgid="919668385956251611">"‏כרטיס ה-SIM נעול באמצעות PUK. הקלד את קוד PUK כדי לבטל את נעילתו."</string>
+    <string name="needPuk2" msgid="4526033371987193070">"‏הקלד PUK2 כדי לבטל את חסימת כרטיס ה-SIM."</string>
+    <string name="enablePin" msgid="209412020907207950">"‏לא הצלחת. הפעל נעילת SIM/RUIM."</string>
+    <plurals name="pinpuk_attempts" formatted="false" msgid="1251012001539225582">
+      <item quantity="two">‏נותרו לך <xliff:g id="NUMBER_1">%d</xliff:g> ניסיונות לפני נעילת כרטיס ה-SIM.</item>
+      <item quantity="many">‏נותרו לך <xliff:g id="NUMBER_1">%d</xliff:g> ניסיונות לפני נעילת כרטיס ה-SIM.</item>
+      <item quantity="other">‏נותרו לך <xliff:g id="NUMBER_1">%d</xliff:g> ניסיונות לפני נעילת כרטיס ה-SIM.</item>
+      <item quantity="one">‏נותר לך ניסיון <xliff:g id="NUMBER_0">%d</xliff:g> לפני נעילת כרטיס ה-SIM.</item>
+    </plurals>
+    <string name="imei" msgid="2625429890869005782">"IMEI"</string>
+    <string name="meid" msgid="4841221237681254195">"MEID"</string>
+    <string name="ClipMmi" msgid="6952821216480289285">"זיהוי מתקשר של שיחה נכנסת"</string>
+    <string name="ClirMmi" msgid="7784673673446833091">"זיהוי מתקשר בשיחה יוצאת"</string>
+    <string name="ColpMmi" msgid="3065121483740183974">"מזהה של קו מחובר"</string>
+    <string name="ColrMmi" msgid="4996540314421889589">"הגבלה של מזהה קו מחובר"</string>
+ 

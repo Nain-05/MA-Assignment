@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F4F4"
+    android:orientation="vertical">
+
+   <!-- <TextView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:text="USER'S COMPLAIN"
+        android:background="#3F51B5"
+        android:textColor="#FFFEFE"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:gravity="center"/>-->
+
+    <ImageView
+        android:padding="5dp"
+        android:id="@+id/cimage"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"/>
+    <!--<TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#090000"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:text="User Email:"/>
+
+
+    <TextView
+        android:id="@+id/usermail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-30dp"
+        android:textStyle="bold"
+        android:textColor="#090000"
+        android:gravity="center"
+        android:layout_marginLeft="0dp"
+        android:textSize="20sp"
+        android:text="kkkk"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#090000"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:text="CATEGORY"/>
+    <TextView
+        android:id="@+id/categori"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Category"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#090000"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:text="SEVERITY"/>
+    <TextView
+        android:id="@+id/sevi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Severity"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#090000"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:text="DESCRITION"/>
+    <TextView
+        android:id="@+id/desi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#090000"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:text="LONGITUDE"/>
+    <TextView
+        android:id="@+id/longg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Longitude"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#090000"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:text="LATTITUDE"/>
+    <TextView
+        android:id="@+id/lattitud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lattitude"/>
+
+--> <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F4F4F4"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:padding="5dp"
+        android:textColor="#070707"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Email: "
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:padding="5dp"
+        android:textColor="#070707"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/usermail"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="-36dp"
+        />
+    <TextView
+        android:padding="5dp"
+        android:textColor="#070707"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Category: "
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:padding="5dp"
+        android:textColor="#070707"
+        android:layout_marginTop="-36dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginLeft="110dp"
+        android:id="@+id/categori"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        />
+
+
+
+    <TextView
+        android:padding="5dp"
+        android:textColor="#070707"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="Severity:"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+    <TextView
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/sevi"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="-36dp"
+        android:textColor="#070707"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+
+        />
+    <TextView
+        android:padding="5dp"
+        android:textColor="#070707"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description:"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"/>
+    <TextView
+        android:padding="5dp"
+        android:layout_marginTop="-36dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="120dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#070707"
+        android:id="@+id/desi"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:padding="5dp"
+        android:textColor="#070707"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Longitude:"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"/>
+    <TextView
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/longg"
+        android:textSize="20sp"
+        android:textColor="#070707"
+        android:textStyle="bold"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="-36dp"
+        />
+    <TextView
+        android:padding="5dp"
+        android:textColor="#070707"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lattitude:"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"/>
+    <TextView
+        android:padding="5dp"
+        android:textSize="20sp"
+        android:textColor="#070707"
+        android:textStyle="bold"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="-36dp"
+        android:id="@+id/lattitud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        />
+
+</LinearLayout>
+
+
+
+</LinearLayout>
